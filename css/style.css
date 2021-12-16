@@ -1,0 +1,144 @@
+                        html{
+                            scroll-behavior: smooth;
+                        }
+                        body {
+                         background-color: #00101f;
+                         color: #e2e8f0;
+                         font-family: Verdana, Geneva, Tahoma, sans-serif
+                     }
+                     
+                     .navbar {
+                         width: 80%;
+                         height: 10vh;
+                         margin: auto;
+                         padding: 15px 0;
+                         display: flex;
+                         align-items: center;
+                         justify-content: space-between
+                     }
+                     
+                     .navbar a {
+                         text-decoration: none;
+                         color: #6c757d;
+                         font-weight: 700;
+                         font-size: 15px
+                     }
+                     
+                     .navbar ul li {
+                         list-style: none;
+                         display: inline-block;
+                         margin: 0 10px
+                     }
+                     
+                     .navbar ul li a {
+                         text-transform: uppercase
+                     }
+                     
+                     h2,
+                     span {
+                         color: #dc5a5a
+                     }
+                     
+                     .container {
+                         width: 100%;
+                         margin: 0 auto
+                     }
+                     
+                     .line {
+                         display: flex
+                     }
+                     
+                     .line p {
+                         font-size: 20px;
+                         justify-content: center;
+                         padding: 10px
+                     }
+                     
+                     h1 {
+                         font-size: 40px
+                     }
+                     
+                     p {
+                         font-size: 20px;
+                         color: #6c757d
+                     }
+                     
+                     button {
+                         padding: 10px;
+                         width: 180px;
+                         height: 50px;
+                         background-color: transparent;
+                         color: #fff;
+                         border: 1px solid tomato;
+                         border-radius: 15px;
+                         font-size: 16px
+                     }
+                     
+                     button:hover {
+                         background-color: #dc5a5a
+                     }
+                     
+                     .img-top {
+                         border-radius: 50%                         
+                     }
+                     
+                     img {
+                         height: auto;
+                         max-width: 95%;
+                         margin: 0 auto;
+                         display: block;
+                         border-radius: 15px
+                     }
+                     input, textarea{
+                         width: 150px;
+                         color: rgb(255, 255, 255);
+                         background-color: rgb(57, 58, 58);
+                         padding: 10px;
+                         margin-top: 10px;
+                         border: none;
+                     }
+                     input:focus, textarea:focus{
+                         outline: none;
+                     }
+                     img:hover {
+                         filter: brightness(80%)
+                     }
+                     .map{
+                         margin-top: 50px;
+                     }
+                     footer{
+                         margin: 0;
+                         background-color: #6c757d;
+                         
+                     }
+                     footer p{
+                         text-align: center;
+                         color: #fff;
+                         height: 40px;
+                         line-height: 40px;
+
+                     }
+                      @media(min-width:576px;
+                     ) {
+                         .container {
+                             max-width: 540px
+                         }
+                     }
+                     
+                     @media(min-width:740px;
+                     ) {
+                         .container {
+                             max-width: 720px
+                         }
+                     }
+                     
+                     @media(min-width:992px;
+                     ) {
+                         .container {
+                             max-width: 960px
+                         }
+                     }
+                     
+                     @media(min-width:1200px;
+                     ) {
+                        .container { max-width: 11 }
